@@ -1,0 +1,30 @@
+services:
+  # 1. Backend API Service
+  - type: web
+    name: omnisales-backend-api
+    runtime: node
+    plan: free
+    buildCommand: npm --prefix backend install && npm --prefix backend run build
+    startCommand: npm --prefix backend run start
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: PORT
+        value: 5001
+      - key: FRONTEND_URL
+        value: https://omnisales-frontend.onrender.com
+
+  # 2. Frontend Web Dashboard
+  - type: web
+    name: omnisales-frontend
+    runtime: node
+    plan: free
+    buildCommand: npm --prefix frontend install && npm --prefix frontend run build
+    startCommand: npm --prefix frontend run start
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: PORT
+        value: 3000
+      - key: NEXT_PUBLIC_API_URL
+        value: https://omnisales-backend-api.onrender.com/api/sales

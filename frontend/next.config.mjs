@@ -2,6 +2,12 @@
 const nextConfig = {
   reactStrictMode: true,
   transpilePackages: ['recharts', 'lucide-react'],
+  images: {
+    remotePatterns: [
+      { protocol: 'https', hostname: 'images.unsplash.com' },
+      { protocol: 'https', hostname: 'api.dicebear.com' },
+    ],
+  },
 };
 
 export default nextConfig;
