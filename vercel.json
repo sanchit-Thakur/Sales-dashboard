@@ -1,9 +1,5 @@
 {
-  "framework": "nextjs",
-  "buildCommand": "npm --prefix frontend run build",
+  "buildCommand": "cd frontend && npm install && npm run build",
   "outputDirectory": "frontend/.next",
-  "installCommand": "npm --prefix frontend install",
-  "env": {
-    "NODE_ENV": "production"
-  }
+  "framework": "nextjs"
 }
