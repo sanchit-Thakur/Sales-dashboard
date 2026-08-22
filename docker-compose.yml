@@ -1,44 +1,14 @@
 version: '3.8'
 
 services:
-  backend:
+  app:
     build:
-      context: ./backend
+      context: .
       dockerfile: Dockerfile
-    container_name: omnisales_backend_api
-    restart: unless-stopped
-    ports:
-      - '5001:5001'
-    environment:
-      - NODE_ENV=production
-      - PORT=5001
-      - FRONTEND_URL=http://localhost:3000
-    healthcheck:
-      test: ["CMD-SHELL", "wget -qO- http://localhost:5001/health || exit 1"]
-      interval: 10s
-      timeout: 5s
-      retries: 3
-    networks:
-      - omnisales_network
-
-  frontend:
-    build:
-      context: ./frontend
-      dockerfile: Dockerfile
-    container_name: omnisales_frontend_ui
+    container_name: omnisales_sales_dashboard
     restart: unless-stopped
     ports:
       - '3000:3000'
     environment:
       - NODE_ENV=production
       - PORT=3000
-      - NEXT_PUBLIC_API_URL=http://localhost:5001/api/sales
-    depends_on:
-      backend:
-        condition: service_healthy
-    networks:
-      - omnisales_network
-
-networks:
-  omnisales_network:
-    driver: bridge
