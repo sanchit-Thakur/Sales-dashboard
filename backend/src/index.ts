@@ -6,6 +6,7 @@ import { env } from './config/env.js';
 import { errorHandler } from './middleware/errorHandler.js';
 import { globalRateLimiter } from './middleware/rateLimiter.js';
 import salesRoutes from './routes/salesRoutes.js';
+import authRoutes from './routes/authRoutes.js';
 
 const app = express();
 
@@ -13,7 +14,7 @@ const app = express();
 app.use(helmet());
 app.use(
   cors({
-    origin: [env.FRONTEND_URL || 'http://localhost:3000', 'http://localhost:3000'],
+    origin: [env.FRONTEND_URL || 'http://localhost:3000', 'http://localhost:3000', 'http://localhost:3001'],
     credentials: true,
   })
 );
@@ -32,7 +33,8 @@ app.get('/health', (_req, res) => {
   });
 });
 
-// Sales & Data Science API Routes
+// Authentication & Sales API Routes
+app.use('/api/auth', authRoutes);
 app.use('/api/sales', salesRoutes);
 
 // Centralized Error Handling
