@@ -1,0 +1,382 @@
+{
+  "generated_at": "2026-08-22T16:46:30.250160",
+  "total_transactions": 63680,
+  "total_gross_revenue": 25212781.0,
+  "total_net_revenue": 24320748.15,
+  "total_gross_profit": 13597530.15,
+  "total_units_sold": 94601,
+  "overall_margin_pct": 55.91,
+  "average_order_value": 381.92,
+  "return_rate_pct": 2.36,
+  "brand_metrics": [
+    {
+      "brand": "ApexLiving",
+      "gross_revenue": 5888241.0,
+      "net_revenue": 5682006.8,
+      "gross_profit": 3151438.8,
+      "margin_pct": 55.46,
+      "units_sold": 18769,
+      "order_count": 12686,
+      "avg_order_value": 447.9,
+      "market_share_pct": 23.36
+    },
+    {
+      "brand": "AuraTech",
+      "gross_revenue": 8487625.0,
+      "net_revenue": 8187171.05,
+      "gross_profit": 3680065.05,
+      "margin_pct": 44.95,
+      "units_sold": 19105,
+      "order_count": 12832,
+      "avg_order_value": 638.03,
+      "market_share_pct": 33.66
+    },
+    {
+      "brand": "NovaStyle",
+      "gross_revenue": 2539256.0,
+      "net_revenue": 2449661.15,
+      "gross_profit": 1711795.15,
+      "margin_pct": 69.88,
+      "units_sold": 18885,
+      "order_count": 12710,
+      "avg_order_value": 192.73,
+      "market_share_pct": 10.07
+    },
+    {
+      "brand": "PulseAudio",
+      "gross_revenue": 5835516.0,
+      "net_revenue": 5627598.1,
+      "gross_profit": 3488724.1,
+      "margin_pct": 61.99,
+      "units_sold": 18994,
+      "order_count": 12738,
+      "avg_order_value": 441.8,
+      "market_share_pct": 23.14
+    },
+    {
+      "brand": "VitalisHealth",
+      "gross_revenue": 2462143.0,
+      "net_revenue": 2374311.05,
+      "gross_profit": 1565507.05,
+      "margin_pct": 65.94,
+      "units_sold": 18848,
+      "order_count": 12714,
+      "avg_order_value": 186.75,
+      "market_share_pct": 9.76
+    }
+  ],
+  "top_10_products": [
+    {
+      "product_id": "AT-101",
+      "product_name": "Aura UltraBook Pro 15",
+      "brand": "AuraTech",
+      "category": "Laptops",
+      "net_revenue": 3441029.45,
+      "gross_profit": 1249589.45,
+      "units_sold": 2382,
+      "margin_pct": 36.31,
+      "avg_price": 1499.0,
+      "rating": 4.37,
+      "return_rate_pct": 2.58
+    },
+    {
+      "product_id": "AT-105",
+      "product_name": "Aura Pad Pro 12.9 Tablet",
+      "brand": "AuraTech",
+      "category": "Tablets",
+      "net_revenue": 2083477.45,
+      "gross_profit": 907967.45,
+      "units_sold": 2399,
+      "margin_pct": 43.58,
+      "avg_price": 899.0,
+      "rating": 4.39,
+      "return_rate_pct": 2.0
+    },
+    {
+      "product_id": "AL-301",
+      "product_name": "Apex Motion Ergo Desk V2",
+      "brand": "ApexLiving",
+      "category": "Furniture",
+      "net_revenue": 1529237.25,
+      "gross_profit": 781457.25,
+      "units_sold": 2266,
+      "margin_pct": 51.1,
+      "avg_price": 699.0,
+      "rating": 4.37,
+      "return_rate_pct": 2.06
+    },
+    {
+      "product_id": "PA-501",
+      "product_name": "Pulse Master Reference Studio Monitors",
+      "brand": "PulseAudio",
+      "category": "Studio Monitors",
+      "net_revenue": 1397916.25,
+      "gross_profit": 815916.25,
+      "units_sold": 2425,
+      "margin_pct": 58.37,
+      "avg_price": 599.0,
+      "rating": 4.4,
+      "return_rate_pct": 2.11
+    },
+    {
+      "product_id": "AL-304",
+      "product_name": "Apex CleanBot Robotic Mop & Vac",
+      "brand": "ApexLiving",
+      "category": "Appliances",
+      "net_revenue": 1309804.2,
+      "gross_profit": 666824.2,
+      "units_sold": 2473,
+      "margin_pct": 50.91,
+      "avg_price": 549.0,
+      "rating": 4.37,
+      "return_rate_pct": 2.7
+    },
+    {
+      "product_id": "AL-302",
+      "product_name": "Apex Contour Ergonomic Chair",
+      "brand": "ApexLiving",
+      "category": "Furniture",
+      "net_revenue": 1107193.8,
+      "gross_profit": 614533.8,
+      "units_sold": 2346,
+      "margin_pct": 55.5,
+      "avg_price": 489.0,
+      "rating": 4.37,
+      "return_rate_pct": 2.82
+    },
+    {
+      "product_id": "PA-502",
+      "product_name": "Pulse Planar Magnetic Open-Back",
+      "brand": "PulseAudio",
+      "category": "Headphones",
+      "net_revenue": 1019409.6,
+      "gross_profit": 618379.6,
+      "units_sold": 2359,
+      "margin_pct": 60.66,
+      "avg_price": 449.0,
+      "rating": 4.34,
+      "return_rate_pct": 2.28
+    },
+    {
+      "product_id": "VH-408",
+      "product_name": "Vitalis Cold Plunge Tub Inflatable",
+      "brand": "VitalisHealth",
+      "category": "Recovery",
+      "net_revenue": 903136.5,
+      "gross_profit": 528256.5,
+      "units_sold": 2343,
+      "margin_pct": 58.49,
+      "avg_price": 399.0,
+      "rating": 4.35,
+      "return_rate_pct": 2.45
+    },
+    {
+      "product_id": "PA-503",
+      "product_name": "Pulse SoundSphere 360 Spatial Bar",
+      "brand": "PulseAudio",
+      "category": "Home Theater",
+      "net_revenue": 850551.8,
+      "gross_profit": 513861.8,
+      "units_sold": 2322,
+      "margin_pct": 60.42,
+      "avg_price": 379.0,
+      "rating": 4.38,
+      "return_rate_pct": 2.34
+    },
+    {
+      "product_id": "AT-104",
+      "product_name": "Aura Watch Series X",
+      "brand": "AuraTech",
+      "category": "Wearables",
+      "net_revenue": 778147.85,
+      "gross_profit": 407747.85,
+      "units_sold": 2315,
+      "margin_pct": 52.4,
+      "avg_price": 349.0,
+      "rating": 4.35,
+      "return_rate_pct": 2.24
+    }
+  ],
+  "monthly_history": [
+    {
+      "month": "2023-01",
+      "revenue": 407509.5,
+      "trend": 393056.2
+    },
+    {
+      "month": "2023-02",
+      "revenue": 398462.05,
+      "trend": 386659.59
+    },
+    {
+      "month": "2023-03",
+      "revenue": 527965.3,
+      "trend": 435246.49
+    },
+    {
+      "month": "2023-04",
+      "revenue": 517055.7,
+      "trend": 467304.59
+    },
+    {
+      "month": "2023-05",
+      "revenue": 478759.05,
+      "trend": 475339.89
+    },
+    {
+      "month": "2023-06",
+      "revenue": 617983.55,
+      "trend": 536780.21
+    },
+    {
+      "month": "2023-07",
+      "revenue": 663404.65,
+      "trend": 599261.58
+    },
+    {
+      "month": "2023-08",
+      "revenue": 534366.15,
+      "trend": 591303.98
+    },
+    {
+      "month": "2023-09",
+      "revenue": 571547.75,
+      "trend": 598107.9
+    },
+    {
+      "month": "2023-10",
+      "revenue": 561797.05,
+      "trend": 597211.39
+    },
+    {
+      "month": "2023-11",
+      "revenue": 907781.85,
+      "trend": 734028.28
+    },
+    {
+      "month": "2023-12",
+      "revenue": 901957.4,
+      "trend": 829736.99
+    },
+    {
+      "month": "2024-01",
+      "revenue": 497824.05,
+      "trend": 733075.54
+    },
+    {
+      "month": "2024-02",
+      "revenue": 519608.8,
+      "trend": 666663.26
+    },
+    {
+      "month": "2024-03",
+      "revenue": 635762.8,
+      "trend": 662526.9
+    },
+    {
+      "month": "2024-04",
+      "revenue": 581267.2,
+      "trend": 636498.68
+    },
+    {
+      "month": "2024-05",
+      "revenue": 639867.8,
+      "trend": 640267.42
+    },
+    {
+      "month": "2024-06",
+      "revenue": 720415.35,
+      "trend": 675116.51
+    },
+    {
+      "month": "2024-07",
+      "revenue": 775369.7,
+      "trend": 722265.73
+    },
+    {
+      "month": "2024-08",
+      "revenue": 650618.55,
+      "trend": 705488.35
+    },
+    {
+      "month": "2024-09",
+      "revenue": 570396.9,
+      "trend": 659413.17
+    },
+    {
+      "month": "2024-10",
+      "revenue": 655878.65,
+      "trend": 659197.36
+    },
+    {
+      "month": "2024-11",
+      "revenue": 994380.45,
+      "trend": 795129.82
+    },
+    {
+      "month": "2024-12",
+      "revenue": 1046707.45,
+      "trend": 915008.19
+    },
+    {
+      "month": "2025-01",
+      "revenue": 554204.15,
+      "trend": 801610.77
+    },
+    {
+      "month": "2025-02",
+      "revenue": 546893.55,
+      "trend": 711971.08
+    },
+    {
+      "month": "2025-03",
+      "revenue": 664374.75,
+      "trend": 692324.9
+    },
+    {
+      "month": "2025-04",
+      "revenue": 619655.3,
+      "trend": 660087.92
+    },
+    {
+      "month": "2025-05",
+      "revenue": 696615.4,
+      "trend": 667987.61
+    },
+    {
+      "month": "2025-06",
+      "revenue": 762088.1,
+      "trend": 700978.12
+    },
+    {
+      "month": "2025-07",
+      "revenue": 814027.8,
+      "trend": 746535.97
+    },
+    {
+      "month": "2025-08",
+      "revenue": 684368.4,
+      "trend": 727503.97
+    },
+    {
+      "month": "2025-09",
+      "revenue": 719115.3,
+      "trend": 726854.19
+    },
+    {
+      "month": "2025-10",
+      "revenue": 720966.85,
+      "trend": 726770.79
+    },
+    {
+      "month": "2025-11",
+      "revenue": 1060790.35,
+      "trend": 863190.83
+    },
+    {
+      "month": "2025-12",
+      "revenue": 1100960.5,
+      "trend": 978406.31
+    }
+  ]
+}
