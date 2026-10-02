@@ -9,7 +9,8 @@
 
 > **A portfolio-grade Data Science & Executive Analytics Platform** designed to analyze, visualize, and forecast sales performance across multiple company brands and every individual product SKU with econometric modeling and predictive machine learning.
 
----
+----
+
 
 ## 🌟 Executive Summary & Problem Solved
 
