@@ -20,7 +20,6 @@ Modern enterprise consumer conglomerates manage diverse brand portfolios spannin
 4. **Behavioral Customer Analytics**: Cohort retention heatmaps, RFM (Recency, Frequency, Monetary) K-Means segmentation, and cross-brand Market Basket affinity rules.
 
 **OmniSales DS-Studio** bridges executive decision-making with rigorous data science methodologies in an ultra-modern, glassmorphic dark-mode web application.
-
 ---
 
 ## 🏢 Portfolio Brands & Product Catalog
