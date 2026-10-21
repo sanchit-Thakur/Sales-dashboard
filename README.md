@@ -35,7 +35,6 @@ The platform benchmarks **5 flagship enterprise brands** and **40+ realistic pro
 | **PulseAudio** | Studio & Acoustic Gear | Reference Studio Monitors, Planar Headphones, SoundSphere | **$3.12M** | 48.0% | +15.6% |
 
 ---
-
 ## 🧠 Core Data Science & ML Features
 
 ### 1. 📊 Product-Level Graph Studio & SKU Visualizer
